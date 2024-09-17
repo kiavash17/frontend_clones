@@ -48,6 +48,8 @@
   top: 10%;
   left: 20%;
   animation-duration: 25s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
 }
 
 .circle2 {
@@ -57,6 +59,8 @@
   top: 40%;
   left: 70%;
   animation-duration: 30s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
 }
 
 .circle3 {
@@ -66,16 +70,18 @@
   top: 60%;
   left: 30%;
   animation-duration: 20s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
 }
 
 @keyframes float {
   0% {
-    transform: translate(0, 0) scale(1);
+    transform: translate(0, 0);
   }
   50% {
-    transform: translate(20px, 30px) scale(1.2);
+    transform: translate(100px, 200px);
   }
   100% {
-    transform: translate(0, 0) scale(1);
+    transform: translate(0, 0);
   }
 }
