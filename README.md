@@ -33,6 +33,16 @@ This is a front-end clone of the Casey Scholar platform built using React.js. It
 
     This will run the project on `http://localhost:3000`.
 
+## Checklist to Ensure Project Runs Smoothly:
+1. Ensure **Node.js** and **npm** are installed and accessible on your machine.
+2. Check that the `package.json` file exists and lists the necessary dependencies:
+   - `react`
+   - `react-dom`
+   - `react-scripts`
+3. Run `npm install` to install dependencies.
+4. If there are any issues, ensure that the file paths for components and dependencies are correct in the project structure.
+5. Use `npm start` to run the project locally.
+
 ## Future Enhancements
 - **Backend Integration**: The project can be extended to integrate with a backend API to handle file uploads and question responses using AI.
 - **Responsive Design**: Additional media queries can be added for a more comprehensive responsive layout.
